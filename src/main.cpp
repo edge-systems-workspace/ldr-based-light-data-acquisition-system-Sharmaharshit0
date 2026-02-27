@@ -1,4 +1,6 @@
 #include <Arduino.h>
+int ldrPin = A0;      // LDR connected to Analog pin A0
+int ldrValue = 0;
 /**
  * @file main.ino
  * @brief Embedded Light Intensity Monitoring using LDR
