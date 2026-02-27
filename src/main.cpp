@@ -19,7 +19,7 @@ int ldrValue = 0;
  // Create variable to store sensor reading
 
 void setup() {
-
+    Serial.begin(9600);
     // TODO 3:
     // Initialize Serial communication (9600 baud rate)
 
