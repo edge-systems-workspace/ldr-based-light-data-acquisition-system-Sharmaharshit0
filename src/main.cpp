@@ -28,7 +28,7 @@ void setup() {
 }
 
 void loop() {
-
+    ldrValue = analogRead(ldrPin);
     // TODO 5:
     // Read analog value from LDR
 
