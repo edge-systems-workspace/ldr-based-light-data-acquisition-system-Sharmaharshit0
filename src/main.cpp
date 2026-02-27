@@ -35,6 +35,11 @@ void loop() {
     // Read analog value from LDR
 
     // TODO 6:
+
+
+    Serial.print("LDR Value: ");
+    Serial.println(ldrValue);
+    delay(500);
     // Print raw ADC value
 
     // TODO 7:
