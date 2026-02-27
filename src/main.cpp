@@ -25,6 +25,8 @@ void setup() {
 
     // TODO 4:
     // Print system initialization message
+    Serial.print("LDR Value: ");
+    Serial.println(ldrValue);
 }
 
 void loop() {
